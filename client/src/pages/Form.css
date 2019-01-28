@@ -50,7 +50,7 @@ i {
   transition-duration: 0.5s;
 }
 .up{
-  transform: rotate(-135deg);
+  transform: rotate(-45deg);
   transition-duration: 0.5s;
 }
 .result{
@@ -72,18 +72,30 @@ i {
 }
 .result header{
   display: flex;
+  flex-direction: row;
 }
 .content ul{
   list-style: none;
   display: flex;
+  margin-left: none;
 }
 .content li{
   border-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .content input{
   margin: none;
+}
+.content button{
+  background: rgb(39, 187, 83);
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,26) ;
 }
 .headers_content{
   display: flex;

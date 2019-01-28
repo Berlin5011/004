@@ -9,9 +9,11 @@ class Device extends Component{
     }
     this.toggleArrow=this.toggleArrow.bind(this)
   }
+  
   toggleArrow (){
     this.setState({toggleClick:!this.state.toggleClick})
   }
+
   render(){
     return(
       <li key={this.props.name}>
@@ -54,6 +56,7 @@ class Analysis extends Component{
         <div className="form-control">
           <h1>Testing Site </h1>
         </div>
+
         <ul>
           {this.state.response.map((a,index)=>{
             return(<Device value={a} name={index}/>)
