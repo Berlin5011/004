@@ -1,0 +1,94 @@
+.auth-form{
+  width: 40rem;
+  max-width: 80%;
+  margin: auto;
+  font-family: sans-serif;
+}
+.form-control{
+  font-family: sans-serif;
+  margin: auto;
+}
+.form-control label,
+.form-control input{
+  width:100%;
+  display: block;
+  padding: 0.5rem;
+}
+.form-control label{
+  font-weight: bold;
+}
+.form-actions {
+  margin-top: 1rem;
+}
+.form-actions button {
+  background: blue;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,26) ;
+}
+.form-actions button:hover{
+  box-shadow: 1px 1px 5px rgba(0,0,0,26) ;
+  background: gray;
+  cursor: pointer;
+}
+.form-actions button:active,
+.form-actions button.active {
+  background: gray;
+  cursor: pointer;
+}
+i {
+  border: solid gray;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+}
+.down{
+  transform: rotate(45deg);
+  transition-duration: 0.5s;
+}
+.up{
+  transform: rotate(-135deg);
+  transition-duration: 0.5s;
+}
+.result{
+  font-family: sans-serif;
+}
+.result ul{
+  list-style: none;
+}
+.result li{
+  padding: 1rem;
+  border-style: groove;
+  margin: 1rem;
+  display: flex;
+}
+.result button{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.result header{
+  display: flex;
+}
+.content ul{
+  list-style: none;
+  display: flex;
+}
+.content li{
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.content input{
+  margin: none;
+}
+.headers_content{
+  display: flex;
+}
+
+.spacer{
+  flex:1;
+}

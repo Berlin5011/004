@@ -1,0 +1,20 @@
+.auth_selection ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.auth_selection li{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.auth_selection a{
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: gray;
+}
+.auth_selection a:active,
+.auth_selection a:hover,
+.auth_selection a.active{
+  color:blue;
+}

@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER": "Son-graphQL",
+        "MONGO_PASSWORD": "b8TM8s83XUOoZ46Q",
+        "MONGO_DB": "super-awesome"
+    }
+}
